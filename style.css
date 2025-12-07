@@ -279,16 +279,20 @@ nav {
 .form-group input[type="text"],
 .form-group input[type="email"],
 .form-group input[type="number"],
-.form-group input[type="date"] {
+.form-group input[type="date"],
+.form-group textarea {
+  
   background: #111827;
   border: 1px solid #374151;
   padding: 0.7rem;
   border-radius: 0.5rem;
   color: white;
   font-family: inherit;
+  resize:vertical;
 }
 
-.form-group input:focus {
+.form-group input:focus,
+.form-group textarea:focus {
   outline: 2px solid var(--accent);
   border-color: transparent;
 }
